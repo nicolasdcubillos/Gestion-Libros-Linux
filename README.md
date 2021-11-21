@@ -33,6 +33,6 @@ Nicolás David Cubillos Cubillos
 
 Angello Mateo Jaimes Rincón
 
-## License
+## Licencia
 
 [MIT](https://choosealicense.com/licenses/mit/)
