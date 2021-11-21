@@ -13,8 +13,9 @@ make
 
 # Utilización
 
-./receptor -p <pipeNominal> -f <fileEntrada> -s <fileSalida>
-./solicitante [-i <archivoEntrada>] -p <pipeReceptor>
+./receptor -p nombrePipe -f fileEntrada -s fileSalida
+
+./solicitante [-i archivoSolicitudes] -p nombrePipe
   
 # Autor
   
