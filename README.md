@@ -7,17 +7,32 @@ La comunicación cliente-servidor se hace mediante pipes nominales de Linux y el
 
 Implementación de semáforos de Linux para el acceso a recursos compartidos.
 
-# Instalación
+## Instalación
 
+```bash
 make
+```
 
-# Utilización
+## Utilización
 
+Instanciación del servidor o proceso receptor
+
+```bash
 ./receptor -p nombrePipe -f fileEntrada -s fileSalida
+```
 
+Instanciación de un cliente o proceso(s) solicitante(s)
+
+```bash
 ./solicitante [-i archivoSolicitudes] -p nombrePipe
+```
   
-# Autor
+## Autores
   
 Nicolás David Cubillos Cubillos
+
 Angello Mateo Jaimes Rincón
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
